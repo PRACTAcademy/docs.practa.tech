@@ -15,7 +15,7 @@ const config: Config = {
   organizationName: 'MITPAcademy', // GitHub org/user name
   projectName: 'docs.mitpa.tech', // Repo name
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
@@ -134,9 +134,9 @@ const config: Config = {
     },
 
     algolia: {
-      appId: 'APP_ID',
-      apiKey: 'SEARCH_ONLY_API_KEY',
-      indexName: 'INDEX_NAME',
+      appId: 'IMXCLX6JMB',
+      apiKey: 'ab6b0559531ce8b69d33e951731e3d8f',
+      indexName: 'mitpa-tech',
       contextualSearch: true,
       externalUrlRegex: 'external\\.mitpa\\.tech',
       searchParameters: {},

@@ -25,12 +25,28 @@ export function RepoCard({ repo, index }: RepoCardProps) {
         locale: enUS,
     });
 
-    // Distribuição pseudo-aleatória baseada no índice para garantir preenchimento do grid
+    // Distribuição inteligente baseada no índice e conteúdo para garantir preenchimento do grid
     const sizeClass = useMemo(() => {
-        const sizes = ["repo-size-small", "repo-size-medium", "repo-size-large"];
-        // Use o índice para garantir distribuição estável e evitar buracos no grid
-        return sizes[index % sizes.length];
-    }, [index]);
+        // More dynamic distribution to ensure grid fills all available space
+
+        // Large cards - strategically placed to create visual interest
+        // Every 7th card or repos with very long descriptions
+        if ((index % 7 === 0) || 
+            (repo.description && repo.description.length > 120)) {
+            return "repo-size-large";
+        }
+
+        // Medium cards - balanced distribution
+        // Every 3rd card (not divisible by 7) or repos with medium-length descriptions
+        if ((index % 3 === 0 && index % 7 !== 0) || 
+            (repo.description && repo.description.length > 70) || 
+            repo.name.length > 20) {
+            return "repo-size-medium";
+        }
+
+        // Small cards for the rest - ensures good filling of remaining spaces
+        return "repo-size-small";
+    }, [repo, index]);
 
     // Different animation delays based on index
     const getAnimationDelay = () => {
