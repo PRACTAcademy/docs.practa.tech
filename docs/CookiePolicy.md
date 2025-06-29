@@ -1,23 +1,36 @@
 # Cookie Policy
 
-_Last updated: May 11, 2025_
+*Last updated: June 28, 2025*
 
-MITPA uses cookies exclusively to enhance the login experience for authenticated users accessing the Dashboard.
+PRACTA uses cookies **only when strictly necessary**, for example, to enhance the login experience for authenticated users accessing the Dashboard. We do **not** use cookies to track your browsing for advertising.
 
 ## 1. What are Cookies?
-Cookies are small text files stored on your device that help websites recognize you when you return.
+
+Cookies are small text files stored on your device. They help websites recognize you when you return or keep your session active.
 
 ## 2. How We Use Cookies
-We only use a single cookie to:
-- Keep you logged in on the Dashboard (session cookie)
 
-This cookie is necessary for the functioning of the platform and cannot be disabled.
+We use cookies to:
 
-## 3. No Tracking or Third-Party Cookies
-MITPA does **not** use cookies for tracking, advertising, or analytics. We do **not** include third-party cookies.
+* Keep you logged in on the Dashboard (**session cookie**)
+* Collect anonymous usage statistics (**analytics cookie**, if enabled — see below)
+
+The session cookie is essential and cannot be disabled. If you log out, this cookie is removed.
+
+## 3. Analytics and Third-Party Cookies
+
+PRACTA **may** use Google Analytics or similar services to collect **anonymous, aggregated usage data** to help us improve the platform. This may set cookies managed by Google or other providers.
+We **do not** use these cookies for advertising or profiling individual users.
+We do **not** share your personal data with advertisers or ad networks.
 
 ## 4. Managing Cookies
-Since our cookie is essential, disabling it will prevent access to the dashboard.
+
+* The **session cookie** is required for the Dashboard to work — disabling it will log you out.
+* Analytics cookies can be disabled via your browser or by using a browser extension that blocks third-party scripts.
 
 ## 5. Contact
-For questions, contact: privacy@mitpa.tech
+
+If you have any questions about how we use cookies or analytics, please contact: **[privacy@practa.tech](mailto:privacy@practa.tech)**
+ 
+
+

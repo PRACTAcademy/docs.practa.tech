@@ -25,7 +25,6 @@ export function RepoCard({ repo, index }: RepoCardProps) {
         locale: enUS,
     });
 
-    // Distribuição inteligente baseada no índice e conteúdo para garantir preenchimento do grid
     const sizeClass = useMemo(() => {
         // More dynamic distribution to ensure grid fills all available space
 

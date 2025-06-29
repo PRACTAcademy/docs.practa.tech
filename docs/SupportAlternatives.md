@@ -1,11 +1,11 @@
 # Support Alternatives
 
-| Platform | Response Speed | Description |
-|----------|----------------|-------------|
-| [Slack](https://join.slack.com/) | Super Fast | Responses are typically immediate. Ideal for urgent questions and real-time team collaboration. |
-| [Discord](https://discord.gg/) | Fast | Quick responses, often within minutes. Great for community support and ongoing discussions. |
-| [Email](mailto:support@example.com) | Medium | Responses may take several hours. Best for formal or detailed queries that require tracking. |
-| [GitHub](https://github.com/mitpa-tech) | Slow | Responses can take days or longer. Suitable for reporting bugs, suggesting features, or contributing to open source. |
+| Platform                                  | Response Speed | Description |
+|-------------------------------------------|----------------|-------------|
+| [Slack](https://practasupport.slack.com/) | Super Fast | Responses are typically immediate. Ideal for urgent questions and real-time team collaboration. |
+| [Discord](https://practa.tech/discord)    | Fast | Quick responses, often within minutes. Great for community support and ongoing discussions. |
+| [Email](mailto:support@practa.tech)       | Medium | Responses may take several hours. Best for formal or detailed queries that require tracking. |
+| [GitHub](https://github.com/practacademy) | Slow | Responses can take days or longer. Suitable for reporting bugs, suggesting features, or contributing to open source. |
 
 ## Additional Information
 

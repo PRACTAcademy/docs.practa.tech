@@ -24,7 +24,7 @@ export function GithubRepositories() {
         // Fetch repositories from GitHub API
         const fetchRepos = async () => {
             try {
-                const response = await fetch("https://api.github.com/orgs/MITPAcademy/repos");
+                const response = await fetch("https://api.github.com/orgs/PRACTAcademy/repos");
 
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
@@ -86,7 +86,6 @@ export function GithubRepositories() {
 }
 
 function LoadingSkeleton() {
-    // Create an array of 6 elements for loading skeleton
     return (
         <>
             {Array.from({ length: 6 }).map((_, i) => (

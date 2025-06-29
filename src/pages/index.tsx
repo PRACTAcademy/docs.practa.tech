@@ -26,7 +26,7 @@ export default function Home(): ReactNode {
     return (
         <Layout
             title={`Welcome to ${siteConfig.title}`}
-            description="Documentation for the MITPA initiative: collaborate, learn, and grow together.">
+            description="Documentation for the PRACTA initiative: collaborate, learn, and grow together.">
             <HomepageHeader />
             <main>
                 <HomepageFeatures />

@@ -5,15 +5,15 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This file runs in Node.js - no browser APIs here.
 
 const config: Config = {
-  title: 'MITPA Docs',
-  tagline: 'Documentation Directory of MITPA',
+  title: 'PRACTA Docs',
+  tagline: 'Documentation Directory of PRACTA',
   favicon: 'img/favicon.ico',
 
-  url: 'https://docs.mitpa.tech',
+  url: 'https://docs.practa.tech',
   baseUrl: '/',
 
-  organizationName: 'MITPAcademy', // GitHub org/user name
-  projectName: 'docs.mitpa.tech', // Repo name
+  organizationName: 'PRACTAcademy', // GitHub org/user name
+  projectName: 'docs.practa.tech', // Repo name
 
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
@@ -29,7 +29,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.ts'),
-          editUrl: 'https://github.com/MITPAcademy/docs.mitpa.tech/edit/main/',
+          editUrl: 'https://github.com/PRACTAcademy/docs.practa.tech/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -40,9 +40,9 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      title: 'MITPA Docs',
+      title: 'PRACTA Docs',
       logo: {
-        alt: 'MITPA Logo',
+        alt: 'PRACTA Logo',
         src: 'img/favicon.ico',
       },
       items: [
@@ -53,7 +53,13 @@ const config: Config = {
           label: 'Docs',
         },
         {
-          href: 'https://github.com/MITPAcademy/docs.mitpa.tech',
+          type: 'doc',
+          docId: 'disclaimer/Disclaimer',
+          label: 'DISCLAIMER',
+          position: 'left'
+        },
+        {
+          href: 'https://github.com/PRACTAcademy/docs.practa.tech',
           label: 'GitHub',
           position: 'right',
         },
@@ -88,19 +94,15 @@ const config: Config = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discord.gg/mitpa',
+              href: 'https://practa.tech/discord',
             },
             {
               label: 'Twitter / X',
-              href: 'https://x.com/mitpa_tech',
-            },
-            {
-              label: 'YouTube',
-              href: 'https://www.youtube.com/@mitpa_tech',
+              href: 'https://x.com/practatech',
             },
             {
               label: 'Reddit',
-              href: 'https://www.reddit.com/mitpa_tech/',
+              href: 'https://www.reddit.com/practa_tech/',
             },
           ],
         },
@@ -108,25 +110,25 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'MITPA',
-              href: 'https://mitpa.tech',
+              label: 'PRACTA',
+              href: 'https://practa.tech',
             },
             {
-              label: 'MITPA Dashboard',
-              href: 'https://academy.mitpa.tech',
+              label: 'PRACTA Dashboard',
+              href: 'https://dashboard.practa.tech',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/MITPAcademy/docs.mitpa.tech',
+              href: 'https://github.com/PRACTAcademy/docs.practa.tech',
             },
             {
               label: 'Slack Support',
-              href: 'https://mitpasupport.slack.com'
+              href: 'https://practasupport.slack.com'
             }
           ],
         },
       ],
-      copyright: `© ${new Date().getFullYear()} MITPA. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} PRACTA. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
@@ -134,11 +136,11 @@ const config: Config = {
     },
 
     algolia: {
-      appId: 'IMXCLX6JMB',
-      apiKey: 'ab6b0559531ce8b69d33e951731e3d8f',
-      indexName: 'mitpa-tech',
+      appId: '',
+      apiKey: '',
+      indexName: '',
       contextualSearch: true,
-      externalUrlRegex: 'external\\.mitpa\\.tech',
+      externalUrlRegex: 'external\\.practa\\.tech',
       searchParameters: {},
     },
   } satisfies Preset.ThemeConfig,
