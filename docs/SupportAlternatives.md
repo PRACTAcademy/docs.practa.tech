@@ -8,6 +8,6 @@
 
 ## Additional Information
 
-* Discord is where most of the community is active. It’s the fastest way to get support — check channels like `#help` or `#faq`.
+* Discord is where most of the community is active. It’s the fastest way to get support — check channels like `#support`.
 * Email is suitable for inquiries that require privacy or attachments, such as account-related or verification issues.
 * GitHub issues should follow the provided template. Use labels like `bug`, `enhancement`, or `question` to help maintainers triage quickly.
