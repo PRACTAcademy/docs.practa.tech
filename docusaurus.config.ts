@@ -136,9 +136,9 @@ const config: Config = {
     },
 
     algolia: {
-      appId: 'FAKEAPPID123',
-      apiKey: 'FAKEAPIKEY456',
-      indexName: 'fake_index',
+      appId: 'K9WNJIACYV',
+      apiKey: '573a99d9f8c3d344c8b56b956b13721b',
+      indexName: 'practa',
       contextualSearch: true,
       externalUrlRegex: 'external\\.practa\\.tech',
       searchParameters: {},
